@@ -23,7 +23,10 @@
         android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/ivProfileImage"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tvTimeStamp"
+        app:layout_constrainedWidth="true"
         tools:text="calren24" />
 
     <TextView
@@ -42,6 +45,7 @@
         android:id="@+id/tvTimeStamp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
